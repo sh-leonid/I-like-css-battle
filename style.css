@@ -30,12 +30,17 @@ h1 {
 	box-shadow: 3px 3px 5px rgb(132, 19, 19);
 }
 
-.body {
+.battle__field {
 	width: 400px;
 	height: 300px;
 	box-sizing: border-box;
-	border: 2px dashed rgb(200, 59, 59);
+	outline: 2px dashed rgb(200, 59, 59);
 	margin: 0 auto;
+}
+
+.battle__field > div:first-child {
+	height: 300px;
+	box-sizing: border-box;
 }
 
 .battle__name {
